@@ -5,7 +5,7 @@ URL Changing Popups: jQuery plugin
 
 * Linkable and SEO friendly.
 
-* FaceBox compatible (https://github.com/defunkt/facebox), Bootstrap coming (very) soon.
+* Uses FaceBox for modal popups (https://github.com/defunkt/facebox).
 
 
 Usage
