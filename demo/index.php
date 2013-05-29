@@ -17,7 +17,7 @@
 		<head>
 			<link rel="stylesheet" type="text/css" href="libs/facebox/facebox.css" />
 			<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-			<script type="text/javascript" src="libs/facebox/facebox.js"></script>
+			<script type="text/javascript" src="../libs/facebox/facebox.js"></script>
 			<script type="text/javascript" src="../jquery.popup.js"></script>
 			<script type="text/javascript">
 				$().ready(function() {

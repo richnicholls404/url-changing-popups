@@ -21,7 +21,7 @@ Popups will work fine when viewing from the page with the links to the popups on
 <head>
 	<link rel="stylesheet" type="text/css" href="libs/facebox/facebox.css" />
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="libs/facebox/facebox.js"></script>
+	<script type="text/javascript" src="../libs/facebox/facebox.js"></script>
 	<script type="text/javascript" src="../jquery.popup.js"></script>
 	<script type="text/javascript">
 		$().ready(function() {
@@ -68,7 +68,7 @@ So,
 		<head>
 			<link rel="stylesheet" type="text/css" href="libs/facebox/facebox.css" />
 			<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-			<script type="text/javascript" src="libs/facebox/facebox.js"></script>
+			<script type="text/javascript" src="../libs/facebox/facebox.js"></script>
 			<script type="text/javascript" src="../jquery.popup.js"></script>
 			<script type="text/javascript">
 				$().ready(function() {

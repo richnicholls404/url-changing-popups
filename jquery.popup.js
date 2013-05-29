@@ -2,9 +2,10 @@
 
 About:
 
-	URL-changing popups: jQuery plugin
+	URL Changing Popups: jQuery plugin
 	Show modal ‘popup’ windows which change the displayed URL via the HTML5 history API.
-	Linkable and SEO friendly. FaceBox compatible (Bootstrap coming soon).
+	Uses FaceBox for modal popups (https://github.com/defunkt/facebox).
+	Made by: Rich Nicholls @ richnicholls.co.uk
 
 
 Documentation:
