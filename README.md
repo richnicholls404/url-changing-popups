@@ -37,7 +37,7 @@ Popups will work fine when viewing from the page with the links to the popups on
 </html>
 ```
 
-### The Preferred method
+### The Preferred Method
 
 This fixes the issues of the quick method, but is more in-depth and requires some server-side code. It is good for SEO and works as expected. This method does require loading both the list page and the popup page together if the popup page's URL is navigated to directly.
 
