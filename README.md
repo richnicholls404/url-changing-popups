@@ -50,25 +50,15 @@ So,
 ```php
 <?php
 
-	$show_header_and_footer = true; //if you require in your header and footer you can use this variable as a flag not to
-	$show_list_page = true; //show page with list of links to popups
-	$show_popup_page = false; //show popup page content
+	//if you require in your header and footer you can use this variable as a flag not to; ?ajax=true added by jquery.popup.js to links to be opened as popups when requested via ajax
+	$show_header_and_footer = isset($_GET['ajax']) ? true : false;
 	
-	//is ajax request?
-	if(isset($_GET['ajax'])) { //added by jquery.popup.js to links to be opened as popups when requested via ajax
-		$show_header_and_footer = false;
-	}
+	//show page with list of links to popups
+	$show_list_page = (isset($_GET['ajax']) && $show_popup_page) ? false : true; 
 	
-	//has popup page id been supplied?
-	if(isset($_GET['id'])) { //in your implementation you can use the id to load different content for each popup link
-		$show_popup_page = true;
-	}
-	
-	//do we need to show the list page?
-	if(isset($_GET['ajax']) && $show_popup_page) {
-		$show_list_page = false;
-	}
-	
+	//show popup page content; in your implementation you can use the id to load different content for each popup link
+	$show_popup_page = isset($_GET['id']) ? true : false;
+		
 	
 	//show header/footer
 	if($show_header_and_footer) { ?>
@@ -119,7 +109,7 @@ So,
 		</html>
 	
 	<?php }
-	
+
 ?>
 ```
 
