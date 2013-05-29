@@ -120,6 +120,6 @@ Configuration
 ```javascript
 //required function call - this function sets everything up
 $('.popup_link').popupLink({
-	baseURL: 'events.php' //whatever your list page url is
+	baseURL: 'events.php' //whatever your list page url is; optional for Quick method
 });
 ```
